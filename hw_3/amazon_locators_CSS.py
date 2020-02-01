@@ -1,0 +1,11 @@
+$$(".a-icon-logo")
+$$("h1, a-spacing-small")
+$$("#ap_customer_name")
+$$(".auth-contact-verification-request-info") ????
+$$("#ap_password")
+$$(".a-alert-inline-info")
+$$("#ap_password_check")
+$$("#continue")
+$$("#legalTextRow > a:first-child")
+$$("#legalTextRow > a:last-child")
+$$(".a-row > .a-link-emphasis")
