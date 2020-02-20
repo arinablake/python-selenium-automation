@@ -7,7 +7,7 @@ repl = str(input("Enter the replacement: "))
 string = str(input("Enter the String: "))
 
 
-string = string.split(' ')
+string = list(string)
 result = []
 for i in string:
     if i == tb_repl:
@@ -16,10 +16,24 @@ for i in string:
     else:
         result.append(i)
 
-print(' '.join(result))
+print(''.join(result))
 
 
-
+# tb_repl = str(input("Enter the str to be replaced: "))
+# repl = str(input("Enter the replacement: "))
+# string = str(input("Enter the String: "))
+#
+#
+# string = string.split(' ')
+# result = []
+# for i in string:
+#     if i == tb_repl:
+#         i = repl
+#         result.append(i)
+#     else:
+#         result.append(i)
+#
+# print(' '.join(result))
 
 # подстрока здесь значит символ или слово?
 
