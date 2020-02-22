@@ -1,6 +1,5 @@
 # Created by arina at 2/21/20
 Feature: Verify that user can add a specific item to Cart and remove it
-  # Enter feature description here
 
   Scenario: User can add a specific item to Cart and remove it
     Given Open webstaurant store

@@ -58,9 +58,7 @@ def empty_cart(context):
     sleep(3)
     empty_cart_button = context.driver.find_element(*EMPTY_CART_BUTTON)
     empty_cart_button.click()
-
     sleep(3)
     confirm_empty = context.driver.find_elements(*CONFIRMATION_EMPTY)
     confirm_empty[-1].click()
-
     sleep(1)

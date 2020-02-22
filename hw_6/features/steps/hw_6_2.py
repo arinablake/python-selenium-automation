@@ -68,6 +68,7 @@ def tab_match4(context):
     assert tab4.text in context.banner_title.text, f"Expected {tab4.text} in {context.banner_title.text}"
 
     sleep(1)
+
 @then ('Check 5 tab has matching banner')
 def tab_match5(context):
     context.banner_title = context.driver.find_element(*BANNER_TEXT)

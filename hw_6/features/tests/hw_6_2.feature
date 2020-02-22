@@ -11,5 +11,3 @@ Feature: Verify that user can see matching description after clicking relevant t
     And Check 3 tab has matching banner
     And Check 4 tab has matching banner
     And Check 5 tab has matching banner
-#    When User clicks on each top link
-   # Then Check every tab has matching banner
