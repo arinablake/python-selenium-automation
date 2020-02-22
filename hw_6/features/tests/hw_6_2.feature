@@ -1,8 +1,8 @@
 # Created by arina at 2/21/20
-Feature: Verify that user can open an item in a new page and add to the cart, close new page and the item stays in the cart
+Feature: Verify that user can see matching description after clicking relevant tab
   # Enter feature description here
 
-  Scenario: User can open an item in a new page and add to the cart, close new page and the item stays in the cart
+  Scenario: User can see matching description after clicking relevant tab
     Given Open Amazon page
     When Click bestsellers link
     When Get all tabs
